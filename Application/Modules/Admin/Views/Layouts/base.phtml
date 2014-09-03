@@ -1,0 +1,33 @@
+<?php echo $this->partial('head.phtml'); ?>
+  <body>
+  <?php echo $this->partial('menu.phtml'); ?>
+
+    <div class="container">
+<?php
+$flashMessages = \Black\View\FlashMessage::getSuccessMessages();
+if (is_array($flashMessages)) {
+  foreach ($flashMessages as $message) {
+    echo "<p class='bg-success text-success'>{$message}</p>";
+  }
+}
+
+$flashMessages = \Black\View\FlashMessage::getErrorMessages();
+if (is_array($flashMessages)) {
+  foreach ($flashMessages as $message) {
+    echo "<p class='bg-danger text-danger'>{$message}</p>";
+  }
+}
+
+?>
+
+        <?php echo $TEMPLATE_CONTENT; ?>
+
+      <hr>
+
+      <footer>
+        <p><?php echo \Black\Config::get('application')->website->footerAdminLegend; ?></p>
+      </footer>
+    </div> <!-- /container -->
+
+  </body>
+</html>

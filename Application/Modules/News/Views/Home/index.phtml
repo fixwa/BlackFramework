@@ -1,0 +1,175 @@
+
+<?php
+$moduleMainArticle = $this->module('mainArticle');
+$moduleMainArticleRightBefore = $this->module('mainArticleRightBefore');
+$moduleMainArticleRightAfter = $this->module('mainArticleRightAfter');
+
+if (!empty($articles['mainArticle']) || !empty($moduleMainArticle)):
+    echo '<div class="row">';
+    echo '<div class="col-md-8">';
+    echo $moduleMainArticle;
+    if (!empty($articles['mainArticle'])):
+    foreach ($articles['mainArticle'] as $key => $article):
+echo <<<HTML
+      <div class="box-listado">
+        <div class="bk-box-title">
+             <h4><a href="/section/{$article->section}">[$article->getValueFor('section')]</a></h4>
+        </div>
+        <h2 class="titulo-h"><a href="/article/{$article->id}">{$article->title}</a></h2>
+        <div class="col-md-4 img-listado">
+          <a href="/article/{$article->id}"><img src="{$article->getImage()}" width="260" alt="" class="img-responsive"/></a>
+        </div><!--img-listado-->
+        <div class="col-md-8 box-listado">
+          <p>{$article->intro}</p>
+        </div><!-- col-md-8 box-listado -->
+        <br>
+      </div><!-- listado -->
+
+HTML;
+    endforeach;
+    endif;
+    echo '</div>';
+
+    if (!empty($articles['mainBannerRight']) || !empty($moduleMainArticleRightBefore) || !empty($moduleMainArticleRightAfter)):
+        echo '<div class="col-md-4">';
+        echo $moduleMainArticleRightBefore;
+        if (!empty($articles['mainBannerRight'])):
+        foreach ($articles['mainBannerRight'] as $key => $article):
+    echo <<<HTML
+        <div class="box-news">
+          <div class="bk-box-title">
+            <h4><a href="/section/{$article->section}">[$article->getValueFor('section')]</a></h4>
+          </div>
+          <h2 class="titulo-h"><a href="/article/{$article->id}">{$article->title}</a></h2>
+          <a href="/article/{$article->id}"><img src="{$article->getImage()}" style="max-height: 200px; width: 300px;" class="img-responsive thumb-responsive" alt="" /></a>
+          <p>{$article->intro}</p>
+          <ul class="list-inline social-box">
+              <li class="tw"><a href="#"></a></li>
+              <li class="fb"><a href="#"></a></li>
+          </ul>
+          <br>
+          <hr>
+        </div><!--/box-news-->
+HTML;
+        endforeach;
+        endif;
+        echo $moduleMainArticleRightAfter;
+        echo '</div>';
+    endif;
+
+
+    echo '</div>';
+endif;
+?>
+
+<?php  echo $this->module('beforeColumns');  ?>
+
+      <div class="row">
+<?php
+if (!empty($articles['columnOne'])):
+    echo '<div class="col-md-4">';
+    echo $this->module('beforeColumnOne');
+    foreach ($articles['columnOne'] as $key => $article):
+echo <<<HTML
+  <div class="box-news">
+      <div class="bk-box-title">
+        <h4><a href="/section/{$article->section}">[$article->getValueFor('section')]</a></h4>
+      </div>
+      <h2 class="titulo-h"><a href="/article/{$article->id}">{$article->title}</a></h2>
+      <a href="/article/{$article->id}"><img src="{$article->getImage()}" width="300" class="img-responsive thumb-responsive" alt="" /></a>
+
+      <p>{$article->intro}</p>
+      <ul class="list-inline social-box">
+          <li class="tw"><a href="#"></a></li>
+          <li class="fb"><a href="#"></a></li>
+      </ul>
+      <br>
+      <hr>
+    </div><!--/box-news-->
+
+HTML;
+    endforeach;
+    echo '</div>';
+endif;
+?>
+
+<?php
+if (!empty($articles['columnTwo'])):
+    echo '<div class="col-md-4">';
+    echo $this->module('beforeColumnTwo');
+    foreach ($articles['columnTwo'] as $key => $article):
+echo <<<HTML
+  <div class="box-news">
+      <div class="bk-box-title">
+        <h4><a href="/section/{$article->section}">[$article->getValueFor('section')]</a></h4>
+      </div>
+      <h2 class="titulo-h"><a href="/article/{$article->id}">{$article->title}</a></h2>
+      <a href="/article/{$article->id}"><img src="{$article->getImage()}" width="300" class="img-responsive thumb-responsive" alt="" /> </a>
+
+      <p>{$article->intro}</p>
+      <ul class="list-inline social-box">
+          <li class="tw"><a href="#"></a></li>
+          <li class="fb"><a href="#"></a></li>
+      </ul>
+      <br>
+      <hr>
+    </div><!--/box-news-->
+
+HTML;
+    endforeach;
+    echo '</div>';
+endif;
+?>
+
+<?php
+if (!empty($articles['columnThree'])):
+    echo '<div class="col-md-4">';
+    echo $this->module('beforeColumnThree');
+    foreach ($articles['columnThree'] as $key => $article):
+echo <<<HTML
+      <div class="box-news">
+        <div class="bk-box-title">
+          <h4><a href="/section/{$article->section}">[$article->getValueFor('section')]</a></h4>
+        </div>
+        <h2 class="titulo-h"><a href="/article/{$article->id}">{$article->title}</a></h2>
+        <a href="/article/{$article->id}"><img src="{$article->getImage()}" width="300" class="img-responsive thumb-responsive" alt="" /></a>
+        <p>{$article->intro}</p>
+        <ul class="list-inline social-box">
+            <li class="tw"><a href="#"></a></li>
+            <li class="fb"><a href="#"></a></li>
+        </ul>
+        <br>
+        <hr>
+    </div><!--/box-news-->
+HTML;
+    endforeach;
+    echo '</div>';
+endif;
+?>
+      </div><!-- .row columns -->
+
+<?php  echo $this->module('afterColumns');  ?>
+
+<div class="row">
+<?php
+if (!empty($articles['middleBottom'])):
+    echo "<div class='col-md-12 most-read'>
+        <div class='bk-box-title'>
+          <h4><a href=''>LAS MÁS LEÍDAS</a></h4>
+        </div>";
+    foreach ($articles['middleBottom'] as $key => $article):
+      $title = (strlen($article->title) > 52) ? substr($article->title, 0, 45).'...' : $article->title;
+echo <<<HTML
+      <div class="col-md-4 portfolio-item">
+        <a href="/article/{$article->id}">
+            <img src="{$article->getImage()}" class="img-responsive" alt="" />
+        </a>
+        <h2><a href="/article/{$article->id}">{$title}</a></h2>
+      </div>
+HTML;
+    endforeach;
+    echo '</div><!-- most-read -->';
+endif;
+?>
+</div><!-- .row middleBottom -->
+

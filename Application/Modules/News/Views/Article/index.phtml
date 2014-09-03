@@ -1,0 +1,56 @@
+
+      <div class="row">
+<?php
+$articleId = '';
+if (!empty($article)):
+    $articleId = $article->id;
+    echo '<div class="col-md-8">';
+    $articleBody = nl2br($article->body);
+echo <<<HTML
+      <div class="bk-box-title">
+         <h4><a href="/section/{$article->section}">{$article->getValueFor('section')}</a></h4>
+      </div>
+      <h2 class="titulo-h"><a href="/article/{$article->id}">{$article->title}</a></h2>
+      <p>{$article->intro}</p>
+      <hr>
+      <div class="container-social">
+          <ul class="list-inline social-box social-details">
+              <li class="tw"><a href="#"></a></li>
+              <li class="fb"><a href="#"></a></li>
+              <li class="gplus"><a href="#"></a></li>
+              <li class="mail"><a href="#"></a></li>
+          </ul>
+      </div>
+      <div class="box-photo">
+        <img src="{$article->image}" style="width:700px;" class="img-responsive thumb-responsive"alt=""/>
+      </div><!--box photo-->
+      <br />
+      <p class="bs-example box-description">
+        {$articleBody}
+      </p>
+HTML;
+
+    echo '</div>';
+endif;
+
+    if (!empty($moreArticles['sameSection'])):
+        echo '<div class="col-md-4 box-left">';
+        foreach ($moreArticles['sameSection'] as $key => $article):
+    echo <<<HTML
+          <h2 class="titulo-h"><a href="/article/{$article->id}">{$article->title}</a></h2>
+           <a href="/article/{$article->id}"><img src="{$article->image}" style="max-height: 200px; width: 300px;" class="img-responsive thumb-responsive" alt="" /></a>
+          <p>{$article->intro}</p>
+          <br>
+          <hr>
+HTML;
+        endforeach;
+        echo '</div>';
+    endif;
+?>
+
+      </div>
+
+<script src="/Assets/js/visit/blackVisit.js"></script>
+<script>
+  $('body').blackVisit({'entityName': 'News', 'entityId': '<?php echo $articleId; ?>'});
+</script>
