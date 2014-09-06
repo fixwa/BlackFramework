@@ -2,16 +2,15 @@
 
 class Database extends \ORM
 {
-    public static function init()
+    public static function init($config)
     {
-        parent::configure('mysql:host=localhost;dbname=fixwacom_portalgenteactiva');
-        parent::configure('username', 'fixwacom_gact');
-        parent::configure('password', '[z($s]NHM^Og');
-        //\ORM::configure('setting_name', 'value_for_setting');
+        parent::configure('mysql:host=' . $config->host . ';dbname=' . $config->databaseName);
+        parent::configure('username', $config->user);
+        parent::configure('password', $config->password);
         parent::configure('driver_options', [\PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8']);
 
         parent::configure('error_mode', \PDO::ERRMODE_WARNING);
-        parent::configure('logging', true);
+        parent::configure('logging', isset($config->logging) ? $config->logging : false);
         parent::configure('logger', function ($log_string, $query_time) {
             /*
             $user = \Black\Session::get('user');

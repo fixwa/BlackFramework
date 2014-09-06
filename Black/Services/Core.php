@@ -45,8 +45,14 @@ class Core
             return $debug;
         });
 
+        Container::setSingleInstance('db', function () {
+            $config = Config::get('application');
+            $database = \Black\Database::init($config->database);
+            return $database;
+        });
+
         Container::setSingleInstance('entities', function () {
-            \Black\Database::init();
+            Container::get('db');
             $entities = Config::get('entities');
             $provider = new \Black\Entity\Provider($entities);
             return $provider->init();

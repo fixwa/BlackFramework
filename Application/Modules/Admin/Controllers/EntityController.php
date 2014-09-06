@@ -22,8 +22,19 @@ class EntityController extends \Black\Controller
         $entityConfig = $this->entitiesConfig[$entityName];
         $table = isset($entityConfig->table) ? $entityConfig->table : $entityName;
 
+        //@todo Improve all this
         include(Config::$paths['base'] . '/Lib/xcrud/xcrud.php');
         $xcrud = \Xcrud::get_instance();
+        $conf = Config::get('application')->database;
+
+        $xcrud->connection(
+            $conf->user,
+            $conf->password,
+            $conf->databaseName,
+            $conf->host,
+            'utf8'
+        );
+
         $xcrud->table($table);
         $xcrud->limit(20);
         $xcrud->order_by('id', 'desc');
