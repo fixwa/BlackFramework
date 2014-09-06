@@ -28,6 +28,16 @@ $routes = array(
         )
     ),
 
+    'pendingArticle' => array('method' => 'GET',
+        'url' => '/pending/[i:articleId]',
+        'target' => array(
+            'module' => 'News',
+            'controller' => 'PendingArticleController',
+            'action' => 'indexAction'
+        )
+    ),
+
+
     'section' => array('method' => 'GET',
         'url' => '/section/[a:sectionId]',
         'target' => array(
@@ -45,13 +55,39 @@ $routes = array(
             'action' => 'searchPostAction'
         )
     ),
-
     'searchStatic' => array('method' => 'GET',
         'url' => '/search/[:phrase]',
         'target' => array(
             'module' => 'News',
             'controller' => 'SearchController',
             'action' => 'indexAction'
+        )
+    ),
+    'help' => array('method' => 'GET|POST',
+        'url' => '/help',
+        'target' => array(
+            'module' => 'Main',
+            'controller' => 'PageController',
+            'action' => 'HelpAction'
+        )
+    ),
+
+
+    'contact' => array('method' => 'GET|POST',
+        'url' => '/contact',
+        'target' => array(
+            'module' => 'Main',
+            'controller' => 'ContactController',
+            'action' => 'indexAction'
+        )
+    ),
+
+    'blog' => array('method' => 'GET|POST',
+        'url' => '/blog',
+        'target' => array(
+            'module' => 'Main',
+            'controller' => 'BlogController',
+            'action' => 'BlogAction'
         )
     ),
 
@@ -61,6 +97,16 @@ $routes = array(
             'module' => 'Main',
             'controller' => 'ErrorController',
             'action' => 'indexAction'
+        )
+    ),
+
+    // Ajax
+    'adminAjaxUpdateVisit' => array('method' => 'POST',
+        'url' => '/ajax/updateVisit',
+        'target' => array(
+            'module' => 'News',
+            'controller' => 'AjaxController',
+            'action' => 'updateVisitAction'
         )
     ),
 );
@@ -78,6 +124,8 @@ $default = [
 */
 return array_merge(
     include 'AdminRoutes.php',
+    include 'ServicesRoutes.php',
+    include 'EscrowRoutes.php',
     include 'UserRoutes.php',
     $routes
     //$default

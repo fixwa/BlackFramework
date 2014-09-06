@@ -1,0 +1,19 @@
+<?php
+
+$html = <<<HTML
+<div class="checkbox">
+
+    <input
+        type="{$elementType}"
+        name="{$elementName}"
+        class="{$elementClass}"
+        id="{$elementId}"
+        placeholder="{$elementPlaceHolder}"
+        value="{$elementValue}"
+    >
+    <label for="{$elementId}">{$labelText}</label>
+</div>
+
+HTML;
+
+return $html;

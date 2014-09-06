@@ -1,0 +1,17 @@
+<?php
+
+$html = <<<HTML
+<div class="form-group">
+    <label for="{$elementId}">{$labelText}</label>
+    <textarea
+        id="{$elementId}"
+        name="{$elementName}"
+        class="form-control {$elementClass}"
+        rows="{$elementRows}"
+        placeholder="{$elementPlaceHolder}"
+    >{$elementValue}</textarea>
+</div>
+
+HTML;
+
+return $html;
