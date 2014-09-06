@@ -84,8 +84,6 @@ class Form
             $data = $this->data;
         }
 
-        //unset($data['gajus']);
-
         return $data;
     }
 
