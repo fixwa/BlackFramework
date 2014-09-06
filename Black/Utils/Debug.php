@@ -10,6 +10,16 @@ class Debug
 
         echo '<pre style="border-top: 1px solid #FFC75E; padding: 4px; font-size: 11px;">';
         echo 'Container' .PHP_EOL.PHP_EOL;
+        print_r($_POST);
+        echo '</pre>';
+
+        echo '<pre style="border-top: 1px solid #FFC75E; padding: 4px; font-size: 11px;">';
+        echo 'Container' .PHP_EOL.PHP_EOL;
+        print_r($_SESSION);
+        echo '</pre>';
+
+        echo '<pre style="border-top: 1px solid #FFC75E; padding: 4px; font-size: 11px;">';
+        echo 'Container' .PHP_EOL.PHP_EOL;
         print_r($allNames);
         echo '</pre>';
 

@@ -15,7 +15,7 @@ class Session
 
     public static function set($name, $value)
     {
-        if(session_id() == '') {
+        if (session_id() == '') {
             // session isn't started
             self::start();
         }
@@ -25,7 +25,7 @@ class Session
 
     public static function add($name, $value)
     {
-        if(session_id() == '') {
+        if (session_id() == '') {
             self::start();
         }
         if (!isset($_SESSION[self::SESSION_NAMESPACE][$name])) {
@@ -34,9 +34,14 @@ class Session
         $_SESSION[self::SESSION_NAMESPACE][$name][] = $value;
     }
 
+    public static function isRegistered($name)
+    {
+        return isset($_SESSION[self::SESSION_NAMESPACE][$name]);
+    }
+
     public static function getAll()
     {
-        if(session_id() == '') {
+        if (session_id() == '') {
             // session isn't started
             self::start();
         }
@@ -45,15 +50,16 @@ class Session
 
     public static function get($name)
     {
-        if(session_id() == '') {
+        if (session_id() == '') {
             // session isn't started
             self::start();
         }
 
-        if(isset($_SESSION[self::SESSION_NAMESPACE][$name]))
+        if (isset($_SESSION[self::SESSION_NAMESPACE][$name])) {
             return $_SESSION[self::SESSION_NAMESPACE][$name];
-        else
+        } else {
             return null;
+        }
     }
 
     public static function del($name)
@@ -63,7 +69,7 @@ class Session
 
     public static function destroy()
     {
-        if(session_id() == '') {
+        if (session_id() == '') {
             // session isn't started
             self::start();
         }

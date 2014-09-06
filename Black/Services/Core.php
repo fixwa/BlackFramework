@@ -14,9 +14,15 @@ class Core
 {
     public static function init()
     {
+        //Initialize the transaltor. //@todo Add language-detection logic.
         Translation::setMessageLibrary(
             Config::$paths['application'] . '/Languages/es.php'
         );
+
+        Container::setSingleInstance('user', function () {
+            //$user = include Config::$paths['routes'] . '/ApplicationRoutes.php';
+            //return new Router($user);
+        });
 
         Container::setSingleInstance('router', function () {
             $routes = include Config::$paths['routes'] . '/ApplicationRoutes.php';

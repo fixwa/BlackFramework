@@ -1,0 +1,46 @@
+<?php
+$extraData = '';
+
+if (!empty($elementExtraData['elementData']) && is_array($elementExtraData['elementData'])) {
+    foreach ($elementExtraData['elementData'] as $key => $value) {
+        $json = htmlentities(json_encode($value));
+        $extraData .= " data-{$key}=\"{$json}\"";
+    }
+}
+
+$options = '';
+
+if (!empty($elementOptions) && (is_array($elementOptions) || $elementOptions instanceof \Traversable || $elementOptions instanceof \stdClass )) {
+    foreach ($elementOptions as $key => $value) {
+        $selected = '';
+        if (is_array($elementValue) && in_array($key, $elementValue)) {
+            $selected = "selected='selected'";
+        } else if (is_string($elementValue) && $elementValue == $key) {
+            $selected = "selected='selected'";
+        }
+
+        $options .= "<option value='{$key}' {$selected}>{$value}</option>";
+    }
+}
+
+$elementMultipleSize = !empty($elementMultiple) ? 'size="15"' : '';
+$html = <<<HTML
+<div class="form-group">
+    <label for="{$elementId}">{$labelText}</label>
+    <select $elementMultiple $elementMultipleSize
+        type="{$elementType}"
+        name="{$elementName}"
+        class="form-control {$elementClass}"
+        id="{$elementId}"
+        placeholder="{$elementPlaceHolder}"
+        $extraData
+    >
+    {$options}
+    </select>
+</div>
+
+
+
+HTML;
+
+return $html;

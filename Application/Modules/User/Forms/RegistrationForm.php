@@ -11,7 +11,19 @@ class RegistrationForm extends \Black\Form
                 'name' => [
                     'type' => 'text',
                     'label' => 'Nombre'
-                ]
+                ],
+                'email' => [
+                    'type' => 'email',
+                    'label' => 'E-Mail'
+                ],
+                'password' => [
+                    'type' => 'password',
+                    'label' => 'Contraseña'
+                ],
+                'submit' => [
+                    'type' => 'submit',
+                    'value' => 'Enviar'
+                ],
             ]
         ];
         //$this->form->loadFromGlobals();

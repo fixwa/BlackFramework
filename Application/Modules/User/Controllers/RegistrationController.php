@@ -6,13 +6,14 @@ class RegistrationController extends \Black\Controller
 {
     public function init()
     {
-        $this->form = new RegistrationForm();
+        $this->form = new RegistrationForm($_POST);
 
     }
 
     public function registrationAction()
     {
         //$this->view->disable();
+
         if ($this->form->isSubmitted()) {
             echo '<p>WAS SUBMITTED.</p>';
         } else {

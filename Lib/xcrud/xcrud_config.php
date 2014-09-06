@@ -2,7 +2,7 @@
 class Xcrud_config
 {
     // default connection
-    public static $dbname = 'fixwacom_portalgenteactiva'; // Your database name
+    public static $dbname = 'blackfw'; // Your database name
     public static $dbuser = 'root'; // Your database username
     public static $dbpass = ''; // // Your database password
     public static $dbhost = 'localhost'; // Your database host, 'localhost' is default.
