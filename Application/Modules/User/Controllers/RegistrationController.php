@@ -12,8 +12,6 @@ class RegistrationController extends \Black\Controller
 
     public function registrationAction()
     {
-        //$this->view->disable();
-
         if ($this->form->isSubmitted()) {
             echo '<p>WAS SUBMITTED.</p>';
         } else {

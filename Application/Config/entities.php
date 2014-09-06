@@ -1,5 +1,10 @@
 <?php
+//Configurations for -select dropdowns- and other statics.
 $sources = [
+    'userRoles' => [
+        'user'  => 'Usuario',
+        'admin' => 'Administrador',
+    ],
     'newsPlaceHolders' => [
         'NewsSlider'      => 'Slider Principal',
         'mainArticle'     => 'Articulo Principal',
@@ -26,13 +31,29 @@ $sources = [
     ],
 ];
 
+$users = (new \Black\Entity\Base)
+    ->setTable('users')
+    ->setFields([
+        'name' => (object) [],
+        'email' => (object) [],
+        'password' => (object) ['type' => 'password'],
+        'role' => (object) [
+            'type' => 'select',
+            'default' => 'user',
+            'options' => $sources['userRoles'],
+        ],
+        'enabled' => (object) [
+            'type' => 'select',
+            'default' => '0',
+            'options' => $sources['status'],
+        ],
+    ]);
+
 $videos = (new \Black\Entity\Base)
     ->setTable('videos')
     ->setFields([
-        'title' => (object) [
-        ],
-        'link' => (object) [
-        ],
+        'title' => (object) [],
+        'link' => (object) [],
     ]);
 
 $news = (new \Black\Entity\Base)
@@ -64,6 +85,7 @@ $news = (new \Black\Entity\Base)
         ]);
 
 return [
+    'users' => $users,
     'videos' => $videos,
     'news' => $news,
 ];
