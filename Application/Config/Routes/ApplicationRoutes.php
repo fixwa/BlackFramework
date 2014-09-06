@@ -124,8 +124,6 @@ $default = [
 */
 return array_merge(
     include 'AdminRoutes.php',
-    include 'ServicesRoutes.php',
-    include 'EscrowRoutes.php',
     include 'UserRoutes.php',
     $routes
     //$default
