@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-12 errorSection">
+        <h1>Error <span>inesperado</span></h1>
+        <br><br>
+        <div class="well">
+            <img  style="text-align: center; margin: 0 auto;" class="thumbnail" src="http://lorempixel.com/400/300/technics/Error" alt="" />
+        </div>
+        <br>
+
+        <p>Ha ocurrido un error en el sistema. Se ha enviado una alerta para solucionar este problema.</p>
+
+        <?php
+        if (isset($_COOKIE['development'])) {
+            $errorsString = \Black\Session::get('_ERRORS_');
+            \Black\Session::del('_ERRORS_');
+            echo '<div class="well"><pre>' . $errorsString . '</pre></div>';
+        }
+
+
+        ?>
+    </div>
+</div>
