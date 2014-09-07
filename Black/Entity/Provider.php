@@ -14,8 +14,8 @@ class Provider
         return $this;
     }
 
-    public function getModelFor($entityName)
+    public function getModelFor($entityName, $create = false)
     {
-        return $this->entities[$entityName]->getModel();
+        return $this->entities[$entityName]->getModel($create);
     }
 }

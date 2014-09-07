@@ -6,6 +6,7 @@ use \Black\Config;
 use \Black\Router;
 use \Black\Dispatcher;
 use \Black\View;
+use \Black\Session;
 use \Black\Utils\Debug;
 use \Black\View\Translation;
 use \Black\Entity\Provider;
@@ -56,6 +57,30 @@ class Core
             $entities = Config::get('entities');
             $provider = new \Black\Entity\Provider($entities);
             return $provider->init();
+        });
+
+        Container::set('entity', function ($entityName) {
+            $create = false;
+            if (is_array($entityName)) {
+                $entityName = $entityName[0];
+                $create = $entityName[1];
+            }
+            $model = Container::get('entities')->getModelFor(strtolower($entityName), $create);
+            return $model;
+        });
+
+        //@todo Add cookie check into the container.
+        Container::setSingleInstance('userSession', function () {
+            if (Session::isRegistered('user')) {
+                $user = Session::get('user');
+            } else {
+                $user = new \stdClass;
+                $user->ip = \Black\Request::getIp();
+                $user->uniqueId = uniqid('[guest]');
+                $user->isAdmin = false;
+                $user->isLoggedIn = false;
+            }
+            return $user;
         });
 
         Container::setSingleInstance('lang', function () {

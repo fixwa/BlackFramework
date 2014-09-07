@@ -22,9 +22,23 @@ class EntityModel extends \Model
         foreach ($data as $field => $value) {
             $this->{$field} = $value;
         }
-        $this->set_expr('date_created', 'NOW()');
-        $this->date_modified = null;
-        return $this->save();
+
+        if (isset($this->date_created)) {
+            $this->set_expr('date_created', 'NOW()');
+        }
+        if (isset($this->date_modified)) {
+            $this->date_modified = null;
+        }
+
+        return parent::save();
+    }
+
+    public function save()
+    {
+        if (isset($this->date_modified)) {
+            $this->set_expr('date_modified', 'NOW()');
+        }
+        return parent::save();
     }
 
     /**

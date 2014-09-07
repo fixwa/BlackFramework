@@ -18,20 +18,12 @@ return [
         ]
     ],
 
-    'userLogin' => ['method' => 'GET',
+    'userLogin' => ['method' => 'GET|POST',
         'url' => '/user/login',
         'target' => [
             'module' => 'User',
             'controller' => 'LoginController',
             'action' => 'loginAction'
-        ]
-    ],
-    'userLoginPost' => ['method' => 'POST',
-        'url' => '/user/login',
-        'target' => [
-            'module' => 'User',
-            'controller' => 'LoginController',
-            'action' => 'loginPostAction'
         ]
     ],
 

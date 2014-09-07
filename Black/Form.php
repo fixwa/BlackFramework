@@ -76,15 +76,13 @@ class Form
 
     public function loadDataFromGlobals()
     {
-        if (isset($_POST['signature']['uniqueId'])) {
+        if (isset($_POST['signature']['uniqueId']) || isset($_POST['signature']['csrfHash'])) {
             Session::set(self::SESSION_NAMESPACE, $_POST);
         }
     }
 
     public function getData()
     {
-        $flashData = Session::get(self::SESSION_NAMESPACE);
-
         if (Session::isRegistered(self::SESSION_NAMESPACE)) {
             $data = Session::get(self::SESSION_NAMESPACE);
         } else {
@@ -126,11 +124,16 @@ class Form
         return ob_get_clean();
     }
 
-    public function isSubmitted($checkCsfr = true)
+    public function isSubmitted($checkForPost = false, $checkCsfr = true)
     {
         $submitted = false;
 
         if (isset($this->data['signature']['uniqueId']) && $this->data['signature']['uniqueId'] === $this->uniqueId) {
+            $submitted = true;
+        }
+
+        //Insecure check
+        if ($checkForPost === true && !empty($_POST)) {
             $submitted = true;
         }
 

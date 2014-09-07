@@ -24,7 +24,7 @@ class Base
 
     public function setModel($modelClassName)
     {
-        $this->model = $modelClassName;
+        $this->modelClassName = $modelClassName;
         return $this;
     }
 
@@ -43,15 +43,23 @@ class Base
         return new $validatorClassName();
     }
 
-    public function getModel()
+    public function getModel($create = false)
     {
-        $modelClassName = $this->model;
-        if (!class_exists($modelClassName)) {
-            throw new MissingModelException("Model for entity does not exists: " . $modelClassName);
+        if (!class_exists($this->modelClassName)) {
+            throw new MissingModelException("Model for entity does not exists: " . $this->modelClassName);
         }
-        $model = \Model::factory($modelClassName);
-        $ret = $model->create();
-        $ret->setValidator($this->getValidator());
-        return $ret;
+        $this->model = \Model::factory($this->modelClassName);
+
+        if ($create) {
+            $this->create();
+        }
+        return $this->model;
+    }
+
+    public function create()
+    {
+        $this->model = $this->model->create();
+        $this->model->setValidator($this->getValidator());
+        return $this->model;
     }
 }

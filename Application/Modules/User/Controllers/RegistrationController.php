@@ -2,13 +2,14 @@
 
 use Application\Modules\User\Forms\RegistrationForm;
 use \Black\Redirector;
+use \Black\Container;
 
 class RegistrationController extends \Black\Controller
 {
     public function init()
     {
         $this->form = new RegistrationForm($_POST);
-        $this->userModel = \Black\Container::get('entities')->getModelFor('user');
+        $this->userModel = Container::get('entity', ['user', true]);
     }
 
     public function registrationAction()
@@ -26,6 +27,13 @@ class RegistrationController extends \Black\Controller
                 $this->form->setErrors($errors);
             } catch (\Exception $e) {
                 //Can't save
+                var_dump($e->getMessage());
+                die;
+
+                Redirector::getInstance()
+                    ->toRoute('error')
+                    //->setMessages(['error' => $e->getMessage()])
+                    ->go();
             }
 
 
