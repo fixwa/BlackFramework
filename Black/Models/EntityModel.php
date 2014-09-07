@@ -46,10 +46,12 @@ class EntityModel extends \Model
      */
     public function validate($data)
     {
-        $passes = $this->validator->passes($data);
-        if (!$passes) {
-            throw new EntityValidationException("Validation failed.", $this->validator);
+        if (!empty($this->validator)) {
+            $passes = $this->validator->passes($data);
+            if (!$passes) {
+                throw new EntityValidationException("Validation failed.", $this->validator);
+            }
+            return $this;
         }
-        return $this;
     }
 }

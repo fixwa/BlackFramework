@@ -36,11 +36,15 @@ class Base
 
     public function getValidator()
     {
-        $validatorClassName = $this->validatorName;
-        if (!class_exists($validatorClassName)) {
-            throw new MissingValidatorException("Validator for entity does not exists: " . $validatorClassName);
+        $validator = null;
+        if (!empty($this->validatorName)) {
+            $validatorClassName = $this->validatorName;
+            if (!class_exists($validatorClassName)) {
+                throw new MissingValidatorException("Validator for entity does not exists: " . $validatorClassName);
+            }
+            $validator = new $validatorClassName();
         }
-        return new $validatorClassName();
+        return $validator;
     }
 
     public function getModel($create = false)
