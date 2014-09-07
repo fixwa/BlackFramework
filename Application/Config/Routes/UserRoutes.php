@@ -9,15 +9,6 @@ return [
             'action' => 'registrationAction'
         ]
     ],
-    'userRegistrationPost' => ['method' => 'POST',
-        'url' => '/user/registrationXX',
-        'target' => [
-            'module' => 'User',
-            'controller' => 'RegistrationController',
-            'action' => 'registrationPostAction'
-        ]
-    ],
-
     'userRegistrationSuccess' => ['method' => 'GET',
         'url' => '/user/registration-success',
         'target' => [
@@ -27,20 +18,12 @@ return [
         ]
     ],
 
-    'userLogin' => ['method' => 'GET',
+    'userLogin' => ['method' => 'GET|POST',
         'url' => '/user/login',
         'target' => [
             'module' => 'User',
             'controller' => 'LoginController',
             'action' => 'loginAction'
-        ]
-    ],
-    'userLoginPost' => ['method' => 'POST',
-        'url' => '/user/login',
-        'target' => [
-            'module' => 'User',
-            'controller' => 'LoginController',
-            'action' => 'loginPostAction'
         ]
     ],
 

@@ -10,6 +10,8 @@ class Form
     protected $uniqueId;
     protected $csrfHash;
 
+    private $errors;
+
     public function __construct(array $data = null)
     {
         $this->config = array_merge(
@@ -67,23 +69,26 @@ class Form
         $this->data['content'] = implode(PHP_EOL, $elementsHtml);
     }
 
+    public function setErrors($errors)
+    {
+        $this->errors = $errors;
+    }
+
     public function loadDataFromGlobals()
     {
-        if (isset($_POST['signature']['uniqueId'])) {
+        if (isset($_POST['signature']['uniqueId']) || isset($_POST['signature']['csrfHash'])) {
             Session::set(self::SESSION_NAMESPACE, $_POST);
         }
     }
 
     public function getData()
     {
-        $flashData = Session::get(self::SESSION_NAMESPACE);
-
         if (Session::isRegistered(self::SESSION_NAMESPACE)) {
             $data = Session::get(self::SESSION_NAMESPACE);
         } else {
             $data = $this->data;
         }
-
+        unset($data['signature']);
         return $data;
     }
 
@@ -119,11 +124,16 @@ class Form
         return ob_get_clean();
     }
 
-    public function isSubmitted($checkCsfr = true)
+    public function isSubmitted($checkForPost = false, $checkCsfr = true)
     {
         $submitted = false;
 
         if (isset($this->data['signature']['uniqueId']) && $this->data['signature']['uniqueId'] === $this->uniqueId) {
+            $submitted = true;
+        }
+
+        //Insecure check
+        if ($checkForPost === true && !empty($_POST)) {
             $submitted = true;
         }
 
@@ -140,5 +150,16 @@ class Form
         return '
         <input type="hidden" name="signature[uniqueId]" value="' . $this->uniqueId . '">
         <input type="hidden" name="signature[csrfHash]" value="' . $this->csrfHash . '">';
+    }
+
+    public function getErrorMessages()
+    {
+        $ret = '';
+        if (!empty($this->errors)) {
+            foreach ($this->errors as $error) {
+                $ret .= '<div class="alert alert-danger" role="alert"><p>' . $error . '</p></div>';
+            }
+        }
+        return $ret;
     }
 }

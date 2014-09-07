@@ -38,11 +38,11 @@ class Container
      * @param  string $name The id
      * @return mixed
      */
-    public static function get($name)
+    public static function get($name, $params = null)
     {
         if (static::isRegistered($name)) {
             $name = static::$registry[$name];
-            return $name();
+            return $name($params);
         } elseif (static::isRegisteredAsSingleInstance($name)) {
             return static::$registrySingleInstances[$name];
         }
