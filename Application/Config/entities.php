@@ -31,7 +31,9 @@ $sources = [
     ],
 ];
 
-$users = (new \Black\Entity\Base)
+$user = (new \Black\Entity\Base)
+    ->setModel('\Application\Modules\User\Models\User')
+    ->setValidator('\Application\Modules\User\Models\UserValidator')
     ->setTable('users')
     ->setFields([
         'name' => (object) [],
@@ -49,7 +51,7 @@ $users = (new \Black\Entity\Base)
         ],
     ]);
 
-$videos = (new \Black\Entity\Base)
+$video = (new \Black\Entity\Base)
     ->setTable('videos')
     ->setFields([
         'title' => (object) [],
@@ -85,7 +87,7 @@ $news = (new \Black\Entity\Base)
         ]);
 
 return [
-    'users' => $users,
-    'videos' => $videos,
+    'user' => $user,
+    'video' => $video,
     'news' => $news,
 ];

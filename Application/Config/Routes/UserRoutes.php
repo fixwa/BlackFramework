@@ -9,15 +9,6 @@ return [
             'action' => 'registrationAction'
         ]
     ],
-    'userRegistrationPost' => ['method' => 'POST',
-        'url' => '/user/registrationXX',
-        'target' => [
-            'module' => 'User',
-            'controller' => 'RegistrationController',
-            'action' => 'registrationPostAction'
-        ]
-    ],
-
     'userRegistrationSuccess' => ['method' => 'GET',
         'url' => '/user/registration-success',
         'target' => [

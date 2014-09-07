@@ -28,4 +28,14 @@ class RegistrationForm extends \Black\Form
         ];
         //$this->form->loadFromGlobals();
     }
+
+    /**
+     * Overloads parent::getData
+     */
+    public function getData()
+    {
+        $data = parent::getData();
+        $data['email'] = strtolower($data['email']);
+        return $data;
+    }
 }

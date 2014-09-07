@@ -10,6 +10,8 @@ class Form
     protected $uniqueId;
     protected $csrfHash;
 
+    private $errors;
+
     public function __construct(array $data = null)
     {
         $this->config = array_merge(
@@ -67,6 +69,11 @@ class Form
         $this->data['content'] = implode(PHP_EOL, $elementsHtml);
     }
 
+    public function setErrors($errors)
+    {
+        $this->errors = $errors;
+    }
+
     public function loadDataFromGlobals()
     {
         if (isset($_POST['signature']['uniqueId'])) {
@@ -83,7 +90,7 @@ class Form
         } else {
             $data = $this->data;
         }
-
+        unset($data['signature']);
         return $data;
     }
 
@@ -140,5 +147,16 @@ class Form
         return '
         <input type="hidden" name="signature[uniqueId]" value="' . $this->uniqueId . '">
         <input type="hidden" name="signature[csrfHash]" value="' . $this->csrfHash . '">';
+    }
+
+    public function getErrorMessages()
+    {
+        $ret = '';
+        if (!empty($this->errors)) {
+            foreach ($this->errors as $error) {
+                $ret .= '<div class="alert alert-danger" role="alert"><p>' . $error . '</p></div>';
+            }
+        }
+        return $ret;
     }
 }
