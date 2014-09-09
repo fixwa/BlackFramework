@@ -19,3 +19,7 @@ spl_autoload_register(function ($class) {
 });
 
 //Helpers
+function now()
+{
+    return (new \DateTime())->format(\DateTime::ISO8601);
+}

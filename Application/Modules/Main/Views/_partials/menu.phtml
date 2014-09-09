@@ -1,4 +1,4 @@
-<div class="navbar navbar navbar-fixed-top" role="navigation">
+<div class="navbar-inverse navbar navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -36,7 +36,7 @@ if ($user->isLoggedIn): ?>
           <input type="password" name="password"  placeholder="Password" class="form-control">
         </div>
         <input type="hidden" name="signature[csrfHash]" value="<?php echo sha1(session_id()); ?>">
-        <button type="submit" class="btn btn-success">Sign in</button>
+        <button type="submit" class="btn btn-success">Log in</button>
         <a href="<?php echo $this->url('userRegistration'); ?>" class="btn btn-primary" role="button"><?php echo $this->translate('register'); ?></a>
       </form>
 <?php endif; ?>

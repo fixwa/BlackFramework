@@ -11,6 +11,7 @@ class Form
     protected $csrfHash;
 
     private $errors;
+    private $elementValues = [];
 
     public function __construct(array $data = null)
     {
@@ -23,7 +24,7 @@ class Form
         $this->csrfHash = sha1(session_id());
         $this->data = $data;
 
-        $this->init();
+
     }
 
     public function getDefaultConfig()
@@ -63,7 +64,11 @@ class Form
 
         //Elements
         foreach ($this->config['elements'] as $elementName => $element) {
+            if (!empty($this->elementValues[$elementName])) {
+                $element['value'] = $this->elementValues[$elementName];
+            }
             $elementsHtml[] = $this->getElementHtml($elementName, $element);
+
         }
 
         $this->data['content'] = implode(PHP_EOL, $elementsHtml);
@@ -79,6 +84,11 @@ class Form
         if (isset($_POST['signature']['uniqueId']) || isset($_POST['signature']['csrfHash'])) {
             Session::set(self::SESSION_NAMESPACE, $_POST);
         }
+    }
+
+    public function setElementValues($values)
+    {
+        $this->elementValues = $values;
     }
 
     public function getData()
@@ -118,6 +128,7 @@ class Form
 
     public function render()
     {
+        $this->init();
         extract($this->data);
         ob_start();
         require Config::$paths['framework'] . '/Forms/FormContainer.phtml';

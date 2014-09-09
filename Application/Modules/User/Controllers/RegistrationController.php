@@ -41,9 +41,4 @@ class RegistrationController extends \Black\Controller
 
         $this->view->form = $this->form;
     }
-
-    public function successAction()
-    {
-
-    }
 }

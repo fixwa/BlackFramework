@@ -1,17 +1,11 @@
-<?php
 
-$html = <<<HTML
 <div class="form-group">
-    <label for="{$elementId}">{$labelText}</label>
+    <label for="<?php echo $data['id']; ?>"><?php echo $data['label']; ?></label>
     <textarea
-        id="{$elementId}"
-        name="{$elementName}"
-        class="form-control {$elementClass}"
-        rows="{$elementRows}"
-        placeholder="{$elementPlaceHolder}"
-    >{$elementValue}</textarea>
+        id="<?php echo $data['id']; ?>"
+        name="<?php echo $data['name']; ?>"
+        class="form-control <?php echo $data['class']; ?>"
+        rows="<?php echo $data['rows']; ?>"
+        placeholder="<?php echo $data['placeholder']; ?>"
+    ><?php echo $data['value']; ?></textarea>
 </div>
-
-HTML;
-
-return $html;
