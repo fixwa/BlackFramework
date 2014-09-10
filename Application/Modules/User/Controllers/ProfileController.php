@@ -63,8 +63,8 @@ class ProfileController extends \Black\Controller
         $storage = new \Upload\Storage\FileSystem(Config::$paths['uploads'] . '/Users/', true);
         $file = new \Upload\File('file', $storage);
 
-        $new_filename = $userSession->uniqueId;
-        $file->setName($new_filename);
+        //$new_filename = $userSession->uniqueId;
+        $file->setName($userSession->id);
 
         $file->addValidations([
             //new \Upload\Validation\Mimetype(array('image/jpg'/*, 'image/gif'*/)),
@@ -111,11 +111,14 @@ class ProfileController extends \Black\Controller
                 $data = $this->form->getData();
                 $this->user->name = $data['name'];
                 $this->user->image = $data['image'];
-                unset($data['name']);
-                unset($data['image']);
 
                 //Merge parameters and update.
                 $this->user->mergeParameters($data)->save();
+
+                Redirector::getInstance()
+                    ->toRoute('userProfile')
+                    //->setMessages(['error' => $e->getMessage()])
+                    ->go();
 
             } catch (\Black\Exceptions\EntityValidationException $e) {
                 $failures = $e->getFailures();
