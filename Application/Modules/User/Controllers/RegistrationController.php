@@ -16,7 +16,9 @@ class RegistrationController extends \Black\Controller
     {
         if ($this->form->isSubmitted()) {
             try {
-                $this->userModel->saveFromArray($this->form->getData());
+                $data = $this->form->getData();
+                $data['image'] = 'default.jpg';
+                $this->userModel->saveFromArray($data);
                 Redirector::getInstance()
                     ->toRoute('userRegistrationSuccess')
                     ->go();
