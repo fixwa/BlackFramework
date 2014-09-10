@@ -13,16 +13,30 @@ $sources = [
         'middleBottom'    => 'Debajo de las Columnas',
         'footer'          => 'Footer',
     ],
-    'images' => [
+    'userImages' => [
+        'path' => '../../Assets/Uploads/Users/',
         'width'=> 1024,
         'height'=> 768,
-        'crop' => true,
+        'crop' => false,
         //'manual_crop'=>true,
         'grid_thumb' => 0,
         'thumbs'=> [
-            ['width'=> 50, 'marker' => '_small'],
-            ['width'=> 100, 'marker' => '_middle'],
-            ['width' => 150, 'folder' => 'thumbs'],
+            ['width'=> 80, 'marker' => '_small'],
+            ['width'=> 220, 'marker' => '_middle'],
+            ['width' => 450, 'folder' => 'thumbs'],
+        ],
+    ],
+    'newsImages' => [
+        'path' => '../../Assets/Uploads/News/',
+        'width'=> 1024,
+        'height'=> 768,
+        'crop' => false,
+        //'manual_crop'=>true,
+        'grid_thumb' => 0,
+        'thumbs'=> [
+            ['width'=> 80, 'marker' => '_small'],
+            ['width'=> 220, 'marker' => '_middle'],
+            ['width' => 450, 'folder' => 'thumbs'],
         ],
     ],
     'status' => [
@@ -43,6 +57,10 @@ $user = (new \Black\Entity\Base)
             'type' => 'select',
             'default' => 'user',
             'options' => $sources['userRoles'],
+        ],
+        'image' => (object) [
+            'type' => 'image',
+            'options' => $sources['userImages'],
         ],
         'enabled' => (object) [
             'type' => 'select',
@@ -72,7 +90,7 @@ $news = (new \Black\Entity\Base)
             'section' => (object) [],
             'image' => (object) [
                 'type' => 'image',
-                'options' => $sources['images'],
+                'options' => $sources['newsImages'],
             ],
             'placeholder' => (object) [
                 'type' => 'select',

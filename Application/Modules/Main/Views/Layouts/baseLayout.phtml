@@ -15,9 +15,21 @@
 
     <!-- Custom styles for this template -->
     <link href="/Assets/css/application.css" rel="stylesheet">
-
+    <?php
+    if (!empty($this->styleSheets)) {
+      foreach ($this->styleSheets as $styleSheet) {
+        echo "<link href='{$styleSheet}' rel='stylesheet'>" . PHP_EOL;
+      }
+    }
+    ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
+    <?php
+    if (!empty($this->javaScripts)) {
+      foreach ($this->javaScripts as $javaScript) {
+        echo "<script src='{$javaScript}'></script>" . PHP_EOL;
+      }
+    }
+    ?>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

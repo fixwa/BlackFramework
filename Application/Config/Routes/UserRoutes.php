@@ -49,6 +49,14 @@ return [
             'action' => 'indexAction'
         ]
     ],
+    'userProfileUploadImage' => ['method' => 'POST',
+        'url' => '/user/upload-image',
+        'target' => [
+            'module' => 'User',
+            'controller' => 'ProfileController',
+            'action' => 'uploadAction'
+        ]
+    ],
     'userPassword' => ['method' => 'GET|POST',
         'url' => '/user/password',
         'target' => [

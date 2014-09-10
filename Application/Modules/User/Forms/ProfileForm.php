@@ -17,6 +17,10 @@ class ProfileForm extends \Black\Form
                     'label' => 'Acerca de ti',
                     'rows'  => 8
                 ],
+                'image' => [
+                    'type' => 'image',
+                    'label' => 'Imagen',
+                ],
                 'submit' => [
                     'type' => 'submit',
                     'value' => 'Enviar'

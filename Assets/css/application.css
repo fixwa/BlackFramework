@@ -3,3 +3,9 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+/* USER */
+.cImage {
+    max-width: 500px;
+    max-height: 350px;
+}
