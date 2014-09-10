@@ -36,17 +36,16 @@ class LoginController extends \Black\Controller
 
             if (!empty($user)) {
                 //Save extra parameters into user's account.
-                $parameters = new \stdClass;
-                $parameters->lastLogin = new \stdClass;
-                $parameters->lastLogin->ip = \Black\Request::getIp();
-                $parameters->lastLogin->uniqueId = uniqid('[u:' . $user->id . ']');
-                $user->parameters = serialize($parameters);
-                $user->save();
+                $data = [];
+                $data['lastLogin']['date']     = now();
+                $data['lastLogin']['ip']       = \Black\Request::getIp();
+                $data['lastLogin']['uniqueId'] = uniqid('[uid_' . $user->id . ']');
+                $user->mergeParameters($data)->save();
 
                 //Update the current session status.
-                $user->ip = $parameters->lastLogin->ip;
-                $user->uniqueId = $parameters->lastLogin->uniqueId;
-                $user->isAdmin = ($user->role === 'admin');
+                $user->ip         = $data['lastLogin']['ip'];
+                $user->uniqueId   = $data['lastLogin']['uniqueId'];
+                $user->isAdmin    = ($user->role === 'admin');
                 $user->isLoggedIn = true;
                 Session::set('user', $user);
 

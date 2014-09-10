@@ -21,7 +21,7 @@ class Config
         self::$paths['base']        = realpath($thisDir . '/../');
         self::$paths['application'] = realpath($thisDir . '/../Application/');
         self::$paths['assetsBase']  = realpath($thisDir . '/../Assets/');
-        self::$paths['uploads']     = realpath($thisDir . '/../Assets/uploads/');
+        self::$paths['uploads']     = realpath($thisDir . '/../Assets/Uploads/');
         self::$paths['config']      = realpath($thisDir . '/../Application/Config/');
         self::$paths['routes']      = realpath($thisDir . '/../Application/Config/Routes/');
     }

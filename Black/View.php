@@ -10,6 +10,8 @@ class View
     public $moduleViewsFolder;
     public $disabled = false;
 
+    public $styleSheets = [];
+
     protected $data = [];
 
 

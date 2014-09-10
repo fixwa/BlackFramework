@@ -1,0 +1,47 @@
+<?php
+/**
+  * Attach JS and CSS required for https://github.com/blueimp/jQuery-File-Upload/
+  */
+$view = \Black\Container::get('view');
+$view->styleSheets[] = '/Assets/jQuery-File-Upload-9.7.1/css/jquery.fileupload.css';
+$view->styleSheets[] = '/Assets/jQuery-File-Upload-9.7.1/css/jquery.fileupload-ui.css';
+
+$view->javaScripts[] = '/Assets/jQuery-File-Upload-9.7.1/js/vendor/jquery.ui.widget.js';
+$view->javaScripts[] = '/Assets/jQuery-File-Upload-9.7.1/js/jquery.iframe-transport.js';
+$view->javaScripts[] = '/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload.js';
+?>
+
+<div class="form-group">
+    <div class="image" id="imageContainer">
+        <?php if (!empty($data['value'])) {
+            echo "<img class='cImage' src='{$data['value']}' alt='' />";
+        }
+        ?>
+    </div>
+    <label for="<?php echo $data['id']; ?>"><?php echo $data['label']; ?></label>
+    <input type="hidden" id="vImage" name="<?php echo $data['name']; ?>" value="<?php echo $data['value']; ?>" />
+
+    <input
+        id="fileupload"
+        type="file"
+        name="file"
+        data-url="/user/upload-image">
+
+    <div id="progress">
+        <div class="bar" style="width: 0%;"></div>
+    </div>
+</div>
+
+<script>
+$(function () {
+    $('#fileupload').fileupload({
+        dataType: 'json',
+        done: function (e, data) {
+            $.each(data.result.files, function (index, file) {
+                $('#imageContainer').html('<img class="cImage" src="' + file.thumbnailUrl + '?v=' + file.md5 + '" />');
+                $('#vImage').attr('value', file.name);
+            });
+        }
+    });
+});
+</script>

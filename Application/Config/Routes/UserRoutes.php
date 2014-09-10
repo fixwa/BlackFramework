@@ -17,7 +17,6 @@ return [
             'action' => 'successAction'
         ]
     ],
-
     'userLogin' => ['method' => 'GET|POST',
         'url' => '/user/login',
         'target' => [
@@ -26,7 +25,6 @@ return [
             'action' => 'loginAction'
         ]
     ],
-
     'userLogout' => ['method' => 'GET',
         'url' => '/user/logout',
         'target' => [
@@ -35,7 +33,6 @@ return [
             'action' => 'logoutAction'
         ]
     ],
-
     'userDashboard' => ['method' => 'GET',
         'url' => '/user/dashboard',
         'target' => [
@@ -44,7 +41,7 @@ return [
             'action' => 'indexAction'
         ]
     ],
-    'userProfile' => ['method' => 'GET',
+    'userProfile' => ['method' => 'GET|POST',
         'url' => '/user/profile',
         'target' => [
             'module' => 'User',
@@ -52,12 +49,20 @@ return [
             'action' => 'indexAction'
         ]
     ],
-    'userPersonalInformation' => ['method' => 'GET|POST',
-        'url' => '/user/personal-information',
+    'userProfileUploadImage' => ['method' => 'POST',
+        'url' => '/user/upload-image',
         'target' => [
             'module' => 'User',
-            'controller' => 'PersonalInformationController',
-            'action' => 'indexAction'
+            'controller' => 'ProfileController',
+            'action' => 'uploadAction'
+        ]
+    ],
+    'userPassword' => ['method' => 'GET|POST',
+        'url' => '/user/password',
+        'target' => [
+            'module' => 'User',
+            'controller' => 'ProfileController',
+            'action' => 'passwordAction'
         ]
     ],
 ];
