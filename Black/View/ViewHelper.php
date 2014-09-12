@@ -3,6 +3,7 @@
 use \Black\Config;
 use \Black\Container;
 use \Black\View\Translation;
+use \Black\View\Module;
 
 class ViewHelper extends \Black\View
 {
@@ -61,5 +62,10 @@ class ViewHelper extends \Black\View
     public function translate($key)
     {
         return Translation::getMessage($key);
+    }
+
+    public function module($placeholder)
+    {
+        return Module::getInstance()->get($placeholder);
     }
 }

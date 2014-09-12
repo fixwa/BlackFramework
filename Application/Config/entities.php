@@ -43,6 +43,31 @@ $sources = [
         '0' => 'Deshabilitada',
         '1' => 'Habilitada'
     ],
+
+    'moduleTypes' => [
+        'html' => 'HTML - or Plain TXT (Basic)',
+        'NewsSlider' => 'A slider with articles.',
+        'Banner' => 'A static banner.',
+        'Gallery' => 'An image gallery.',
+    ],
+
+    'modulePlaceholders' => [
+        'top' => 'TOP - Arriba de todo. Encima del menú.',
+        'menu' => 'MENU - Debajo del menú principal.',
+        'jumboBanner' => 'JUMBOTRON (Arriba) - Ocupa todo el ancho.',
+        'mainArticle' => 'Articulo Principal',
+        'mainArticleRightBefore' => 'Articulo Secundario - Derecha (Antes de las noticias).',
+        'mainArticleRightAfter' => 'Articulo Secundario - Derecha (Debajo de las noticias).',
+        'bottomBanner' => 'JUMBOTRON (Abajo) - Ocupa todo el ancho.',
+        'topContent' => 'Antes del contenido principal (Arriba de todas las noticias).',
+        'bottomContent' => 'Después del contenido principal (Debajo de todas las noticias).',
+        'beforeColumns' => 'Antes de las noticias en columnas.',
+        'afterColumns' => 'Debajo de las noticias en columnas.',
+        'beforeColumnOne' => 'Arriba de las noticias de la columna Uno.',
+        'beforeColumnTwo' => 'Arriba de las noticias de la columna Dos.',
+        'beforeColumnThree' => 'Arriba de las noticias de la columna Tres.',
+        'footer' => 'Footer',
+    ],
 ];
 
 $user = (new \Black\Entity\Base)
@@ -104,8 +129,38 @@ $news = (new \Black\Entity\Base)
             ],
         ]);
 
+$module = (new \Black\Entity\Base)
+    ->setModel('\Black\Models\ViewModule')
+    ->setTable('modules')
+    ->setFields([
+        'title' => (object) [],
+        'type' => (object) [
+            'type' => 'select',
+            'default' => 'html',
+            'options' => $sources['moduleTypes'],
+        ],
+        'parameters' => (object) [],
+        'html' => (object) [],
+        'pages' => (object) [
+            'type' => 'select',
+            'default' => 'jumboBanner',
+            'options' => $sources['modulePlaceholders'],
+        ],
+        'placeholders' => (object) [
+            'type' => 'multiselect',
+            'default' => 'jumboBanner',
+            'options' => $sources['modulePlaceholders'],
+        ],
+        'enabled' => (object) [
+            'type' => 'select',
+            'default' => '0',
+            'options' => $sources['status'],
+        ],
+    ]);
+
 return [
     'user' => $user,
     'video' => $video,
     'news' => $news,
+    'module' => $module,
 ];
