@@ -23,8 +23,7 @@ class Form
         $this->uniqueId = spl_object_hash($this);
         $this->csrfHash = sha1(session_id());
         $this->data = $data;
-
-
+        $this->loadDataFromGlobals();
     }
 
     public function getDefaultConfig()
@@ -45,7 +44,7 @@ class Form
 
     public function init()
     {
-        $this->loadDataFromGlobals();
+
 
         $this->data['formEnctype'] = '';
         $this->data['content'] = '';

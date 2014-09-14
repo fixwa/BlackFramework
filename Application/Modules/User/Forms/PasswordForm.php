@@ -6,7 +6,7 @@ class PasswordForm extends \Black\Form
     public function setConfiguration()
     {
         return [
-            'form' => ['action' => '/user/login', 'method' => 'post', 'role' => 'form'],
+            'form' => ['action' => '/user/password', 'method' => 'post', 'role' => 'form'],
             'elements' => [
                 'password' => [
                     'type' => 'password',
@@ -23,15 +23,5 @@ class PasswordForm extends \Black\Form
             ]
         ];
         //$this->form->loadFromGlobals();
-    }
-
-    /**
-     * Overloads parent::getData
-     */
-    public function getData()
-    {
-        $data = parent::getData();
-        $data['email'] = strtolower($data['email']);
-        return $data;
     }
 }
