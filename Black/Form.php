@@ -136,6 +136,10 @@ class Form
 
     public function isSubmitted($checkForPost = false, $checkCsfr = true)
     {
+        //@fixme Work on CHECK-CSFR and UNIQUE_ID approach
+        $checkForPost = true;
+        $checkCsfr = false;
+
         $submitted = false;
 
         if (isset($this->data['signature']['uniqueId']) && $this->data['signature']['uniqueId'] === $this->uniqueId) {

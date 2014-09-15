@@ -50,9 +50,6 @@ class ProfileController extends \Black\Controller
     {
         $this->view->selectedTab = 'password';
         $this->form = new PasswordForm();
-        echo "<div style='clear: both; padding: 10px; margin: 10px; border: 1px solid blue;'><pre><p>" . __METHOD__ . ":" . __LINE__ . "</p>";
-        var_dump($this->form);
-        echo "</pre></div>";
         $this->handleChangePasswordPost();
 
         $this->view->form = $this->form;
@@ -115,27 +112,18 @@ class ProfileController extends \Black\Controller
     private function handleChangePasswordPost()
     {
         if ($this->form->isSubmitted()) {
-            die('1');
             try {
-                $data = $this->form->getData();
-                echo "<div style='clear: both; padding: 10px; margin: 10px; border: 1px solid blue;'><pre><p>".__METHOD__. ":" .__LINE__."</p>";
-                ini_set('xdebug.var_display_max_children', -1);
-                ini_set('xdebug.var_display_max_data', 250);
-                ini_set('xdebug.var_display_max_depth', 15);
-                //debug_print_backtrace();
-                var_dump($data);
-                //echo '<hr/>';
-                //var_dump();
-                //echo '<hr/>';
-                echo "</pre></div>";die;
-                $this->user->name = $data['name'];
-                $this->user->image = $data['image'];
+                //Validates the form, instead of the model.
+                $this->form->validate();
 
-                //Merge parameters and update.
-                $this->user->mergeParameters($data)->save();
+                $data = $this->form->getData();
+
+                $this->user->password = $data['password'];
+
+                $this->user->save();
 
                 Redirector::getInstance()
-                    ->toRoute('userProfile')
+                    ->toRoute('userPassword')
                     //->setMessages(['error' => $e->getMessage()])
                     ->go();
 

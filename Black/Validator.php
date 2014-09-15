@@ -15,6 +15,7 @@ class Validator
         'minLength' => '%s needs to be at least %s characters long.',
         'maxLength' => '%s needs to be %s characters maximum.',
         'email' => '%s is not a valid email address.',
+        'equalsToParameter' => '',
     ];
 
     public function passes($data)
@@ -223,5 +224,10 @@ class Validator
     public function isEmpty($value)
     {
         return $value === null || (is_array($value) && empty($value)) || (is_string($value) && trim($value) === '');
+    }
+
+    public function equalsToParameter($value, $parameter)
+    {
+        return $value === $this->data[$parameter];
     }
 }
