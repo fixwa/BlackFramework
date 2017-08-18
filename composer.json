@@ -1,5 +1,5 @@
 {
-  "name": "fixwa/logregisys",
+  "name": "fixwa/black-framework",
   "description": "Another MVC framework with router, and using the Idiorm/Paris library for models.",
   "keywords": ["mvc", "minimal", "small", "framework", "lightweight"],
   "minimum-stability": "stable",
