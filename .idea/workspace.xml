@@ -2,247 +2,473 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cb93ecd-1be7-4b87-b4d2-7c4993e6bdc3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/core/xss.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/cs.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ar-DZ.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-az.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-be.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-cy-GB.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-en-AU.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-en-GB.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-en-NZ.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fr-CA.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fr-CH.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-hy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-kk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-lb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-nl-BE.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-nn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-rm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sr-SR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ta.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-tj.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-zh-HK.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/de.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/en.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/es.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/es2.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/fr.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/it.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/nl.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/pl.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/ru.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/se.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-am.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-sr-RS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-sr-YU.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jcrop/Jcrop.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jcrop/jquery.Jcrop.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jcrop/jquery.Jcrop.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-1.11.1.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/timepicker/jquery-ui-timepicker-addon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/timepicker/jquery-ui-timepicker-addon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/xcrud.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud_container.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud_detail_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud_list_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.dev.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/icons-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud_container.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud_detail_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud_list_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.dev.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/icons-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud_container.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud_detail_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud_list_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/printout/xcrud.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/printout/xcrud_list_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/xcrud.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/xcrud_ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/xcrud_config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/xcrud_db.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Application.php" afterPath="$PROJECT_DIR$/BlackFramework/Application.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Autoloader.php" afterPath="$PROJECT_DIR$/BlackFramework/Autoloader.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Config.php" afterPath="$PROJECT_DIR$/BlackFramework/Config.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Container.php" afterPath="$PROJECT_DIR$/BlackFramework/Container.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Controller.php" afterPath="$PROJECT_DIR$/BlackFramework/Controller.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Database.php" afterPath="$PROJECT_DIR$/BlackFramework/Database.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Dispatcher.php" afterPath="$PROJECT_DIR$/BlackFramework/Dispatcher.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Entity/Base.php" afterPath="$PROJECT_DIR$/BlackFramework/Entity/Base.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Entity/Provider.php" afterPath="$PROJECT_DIR$/BlackFramework/Entity/Provider.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/ContainerException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/ContainerException.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/ControllerNotFoundException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/ControllerNotFoundException.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/EntityValidationException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/EntityValidationException.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/MissingModelException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/MissingModelException.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/MissingValidatorException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/MissingValidatorException.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/MissingValidatorRuleException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/MissingValidatorRuleException.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/RouteNotFoundException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/RouteNotFoundException.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Form.php" afterPath="$PROJECT_DIR$/BlackFramework/Form.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementCheckbox.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementCheckbox.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementHidden.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementHidden.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementImage.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementImage.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementPassword.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementPassword.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementSelect.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementSelect.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementSubmit.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementSubmit.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementText.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementText.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementTextarea.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementTextarea.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/FormContainer.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/FormContainer.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Models/EntityModel.php" afterPath="$PROJECT_DIR$/BlackFramework/Models/EntityModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Redirector.php" afterPath="$PROJECT_DIR$/BlackFramework/Redirector.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Request.php" afterPath="$PROJECT_DIR$/BlackFramework/Request.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Router.php" afterPath="$PROJECT_DIR$/BlackFramework/Router.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Services/Core.php" afterPath="$PROJECT_DIR$/BlackFramework/Services/Core.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Session.php" afterPath="$PROJECT_DIR$/BlackFramework/Session.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Utils/Debug.php" afterPath="$PROJECT_DIR$/BlackFramework/Utils/Debug.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Validator.php" afterPath="$PROJECT_DIR$/BlackFramework/Validator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/View.php" afterPath="$PROJECT_DIR$/BlackFramework/View.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/View/FlashMessage.php" afterPath="$PROJECT_DIR$/BlackFramework/View/FlashMessage.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/View/Translation.php" afterPath="$PROJECT_DIR$/BlackFramework/View/Translation.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/View/ViewHelper.php" afterPath="$PROJECT_DIR$/BlackFramework/View/ViewHelper.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Config/Routes/AdminRoutes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Config/Routes/ApplicationRoutes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Config/Routes/UserRoutes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Config/application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Config/entities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Languages/es.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Controllers/EntityController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Controllers/HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Controllers/UserController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Views/Entity/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Views/Home/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Views/Layouts/base.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Views/Layouts/simple.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Views/User/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Views/_partials/head.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Admin/Views/_partials/menu.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Main/Controllers/ErrorController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Main/Controllers/HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Main/Views/Error/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Main/Views/Helpers/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Main/Views/Home/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Main/Views/Layouts/baseLayout.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/Main/Views/_partials/menu.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Controllers/ArticleController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Controllers/Base.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Controllers/HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Controllers/SearchController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Controllers/SectionController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Models/News.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Views/Article/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Views/Home/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Views/Search/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Views/Search/searchpost.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/News/Views/Section/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Controllers/DashboardController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Controllers/LoginController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Controllers/ProfileController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Controllers/RegistrationController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Forms/LoginForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Forms/PasswordForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Forms/ProfileForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Forms/RegistrationForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Models/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Models/UserValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/Dashboard/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/Login/login.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/Login/logout.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/Profile/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/Profile/password.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/Registration/registration.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/Registration/success.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/_partials/tabs-menu.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Uploads/Users/default.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/bootstrap-3.2.0/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/css/admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/css/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/angularjs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/basic-plus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/blueimp-file-upload.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/cors/postmessage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/cors/result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/css/demo-ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/css/jquery.fileupload-noscript.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/css/jquery.fileupload-ui-noscript.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/css/jquery.fileupload-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/css/jquery.fileupload.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/img/progressbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/jquery-ui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/cors/jquery.postmessage-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/cors/jquery.xdr-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload-audio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload-image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload-jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload-process.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload-validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload-video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.fileupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/jquery.iframe-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/js/vendor/jquery.ui.widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/gae-go/app.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/gae-go/app/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/gae-go/static/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/gae-go/static/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/gae-python/app.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/gae-python/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/gae-python/static/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/gae-python/static/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/node/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/node/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/node/public/files/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/node/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/node/tmp/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/php/UploadHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/php/files/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/php/files/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/server/php/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/jQuery-File-Upload-9.7.1/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/build-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/contents.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/fakeobjects/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/image/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/link/images/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/scayt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/wsc/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/api.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/appendto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/assets/inlineall/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/assets/posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/assets/sample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/assets/sample.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/assets/uilanguages/languages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/datafiltering.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/divreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/inlineall.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/inlinebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/dialog/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/magicline/magicline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/readonly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/replacebyclass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/replacebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/sample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/sample.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/sample_posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/tabindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/uicolor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/uilanguages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/samples/xhtmlstyle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/dialog_opera.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/images/mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/skins/moono/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor/styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/ckeditor_demo_init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/cle/images/buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/cle/images/toolbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/cle/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/cle/jquery.cleditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/cle/jquery.cleditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/cle/jquery.cleditor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/langs/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/advlist/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/anchor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/autolink/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/autoresize/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/autosave/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/bbcode/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/charmap/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/code/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/compat3x/editable_selects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/compat3x/form_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/compat3x/mctabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/compat3x/tiny_mce_popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/compat3x/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/contextmenu/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/directionality/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/emoticons/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/example/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/example_dependency/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/fullpage/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/fullscreen/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/hr/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/image/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/layer/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/link/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/lists/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/media/moxieplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/media/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/noneditable/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/pagebreak/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/paste/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/preview/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/print/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/save/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/searchreplace/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/spellchecker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/tabfocus/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/table/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/template/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/textcolor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/visualblocks/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/visualchars/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/plugins/wordcount/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/icomoon-small.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/icomoon-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/icomoon-small.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/icomoon-small.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/icomoon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/icomoon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/icomoon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/icomoon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/fonts/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/img/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/img/object.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/img/wline.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/skins/lightgray/skin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/themes/modern/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce/tinymce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/xcrud/editors/tinymce_demo_init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests/Application/Modules/User/Models/UserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/localhost.sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BlackFramework.iml" afterPath="$PROJECT_DIR$/.idea/BlackFramework.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="BlackFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -285,31 +511,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="330">
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -333,6 +549,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -341,9 +558,9 @@
         <option value="$PROJECT_DIR$/Application/Modules/User/Controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/Black/Autoloader.php" />
         <option value="$PROJECT_DIR$/Black/Application.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Application/Config/application.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
@@ -361,11 +578,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="1929" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1062" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -393,6 +611,15 @@
               <item name="BlackFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlackFramework" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="BlackFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackFrameworkBasicApplication" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="BlackFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackFrameworkBasicApplication" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -401,7 +628,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vhosts/restapi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlackFrameworkBasicApplication" />
     <property name="options.lastSelected" value="Configurable.PHP.Composer" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -467,7 +694,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1410273815257</updated>
-      <workItem from="1503064512115" duration="5283000" />
+      <workItem from="1503064512115" duration="8900000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes documentation for #9&#10;Also improved the dump file a little bit">
       <created>1503067196048</created>
@@ -483,24 +710,54 @@
       <option name="project" value="LOCAL" />
       <updated>1503067227586</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Moving the namespace to make this a Composer library. First commit.">
+      <created>1503080456880</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1503080456880</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix package name">
+      <created>1503081014260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1503081014260</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lower the minimum stability requirement">
+      <created>1503081160491</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1503081160491</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Imported files from Framework repository">
+      <created>1503083982293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503083982293</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5283000" />
+    <option name="totallyTimeSpent" value="8900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36524454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12174818" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08422175" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17793965" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40582725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122751325" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14672217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -546,7 +803,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixes documentation for #9&#10;Also improved the dump file a little bit" />
     <MESSAGE value="Some cleanup a few improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some cleanup a few improvements" />
+    <MESSAGE value="Moving the namespace to make this a Composer library. First commit." />
+    <MESSAGE value="Fix package name" />
+    <MESSAGE value="Lower the minimum stability requirement" />
+    <MESSAGE value="Imported files from Framework repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imported files from Framework repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,13 +952,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="96" column="29" lean-forward="false" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-          <folding>
-            <marker date="1503066926664" expanded="true" signature="532:1020" ph="CREATE TABLE... IF" />
-            <marker date="1503066926664" expanded="true" signature="1136:2012" ph="CREATE TABLE... IF" />
-            <marker date="1503066926664" expanded="true" signature="2136:2335" ph="CREATE TABLE... IF" />
-            <marker date="1503066926664" expanded="true" signature="2452:3002" ph="CREATE TABLE... IF" />
-            <marker date="1503066926664" expanded="true" signature="3120:3418" ph="CREATE TABLE... IF" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,14 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/ErrorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -809,33 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Config/Routes/AdminRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -878,16 +1098,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/ErrorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="242">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        <state relative-caret-position="330">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>

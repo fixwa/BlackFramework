@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Black Framework" />
+  <component name="PublishConfigData" autoUpload="Always" serverName="VendorFramework to Project">
+    <serverData>
+      <paths name="VendorFramework to Project">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/BlackFrameworkBasicApplication/vendor/fixwa/black-framework" local="$PROJECT_DIR$" web="/vendor/BlackFramework" />
+            <mapping deploy="BlackFrameworkBasicApplication" local="$PROJECT_DIR$/../BlackFrameworkBasicApplication" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
 </project>
-

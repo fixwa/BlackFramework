@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BlackFramework.iml" filepath="$PROJECT_DIR$/.idea/BlackFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BlackFrameworkBasicApplication/.idea/BlackFrameworkBasicApplication.iml" filepath="$PROJECT_DIR$/../BlackFrameworkBasicApplication/.idea/BlackFrameworkBasicApplication.iml" />
     </modules>
   </component>
 </project>
-
