@@ -7,6 +7,16 @@ use \Black\Session;
 
 class LoginController extends \Black\Controller
 {
+    /**
+     * @var LoginForm
+     */
+    private $form;
+
+    /**
+     * @var
+     */
+    private $userModel;
+
     public function init()
     {
         $this->form = new LoginForm($_POST);

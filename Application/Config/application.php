@@ -1,5 +1,6 @@
 <?php
 return (object) [
+    'showDebug' => true,
     'website' => (object) [
         'title' => 'Black Framework',
         'brand' => 'Website Example',
@@ -8,9 +9,9 @@ return (object) [
     ],
     'database' => (object) [
         'host' => 'localhost',
-        'databaseName' => 'blackfw',
+        'databaseName' => 'myapplication',
         'user' => 'root',
-        'password' => '',
+        'password' => 'root',
         'logging' => false,
     ],
     'defaults' => (object) [

@@ -19,6 +19,8 @@ class Application
 
     public function __destruct()
     {
-        Container::get('debug')->showInfo();
+        if (Config::get('application')->showDebug) {
+            Container::get('debug')->showInfo();
+        }
     }
 }

@@ -5,6 +5,6 @@ class HomeController extends \Black\Controller
     public function indexAction()
     {
 
-        $this->view->txt = 'todo ok';
+        $this->view->txt = 'It works!';
     }
 }
