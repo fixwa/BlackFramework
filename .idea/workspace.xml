@@ -2,67 +2,329 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cb93ecd-1be7-4b87-b4d2-7c4993e6bdc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Black/Autoloader.php" afterPath="$PROJECT_DIR$/Black/Autoloader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Modules/User/Controllers/DashboardController.php" afterPath="$PROJECT_DIR$/Application/Modules/User/Controllers/DashboardController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Black/Forms/ElementTextarea.phtml" afterPath="$PROJECT_DIR$/Black/Forms/ElementTextarea.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Black/Form.php" afterPath="$PROJECT_DIR$/Black/Form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Modules/User/Controllers/LoginController.php" afterPath="$PROJECT_DIR$/Application/Modules/User/Controllers/LoginController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Modules/User/Controllers/RegistrationController.php" afterPath="$PROJECT_DIR$/Application/Modules/User/Controllers/RegistrationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Modules/User/Models/User.php" afterPath="$PROJECT_DIR$/Application/Modules/User/Models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Config/Routes/UserRoutes.php" afterPath="$PROJECT_DIR$/Application/Config/Routes/UserRoutes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/css/application.css" afterPath="$PROJECT_DIR$/Assets/css/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Languages/es.php" afterPath="$PROJECT_DIR$/Application/Languages/es.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Modules/User/Views/Dashboard/index.phtml" afterPath="$PROJECT_DIR$/Application/Modules/User/Views/Dashboard/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Modules/Main/Views/_partials/menu.phtml" afterPath="$PROJECT_DIR$/Application/Modules/Main/Views/_partials/menu.phtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/core/xss.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/cs.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ar-DZ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-cy-GB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-en-AU.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-en-GB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-en-NZ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fr-CA.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fr-CH.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-hy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-kk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-nl-BE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-nn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-rm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sr-SR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-tj.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-zh-HK.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/datepicker/jquery.ui.datepicker-zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/de.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/en.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/es.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/es2.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/fr.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/it.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/nl.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/pl.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/ru.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/se.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-am.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-sr-RS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-sr-YU.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/languages/timepicker/jquery-ui-timepicker-zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jcrop/Jcrop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jcrop/jquery.Jcrop.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jcrop/jquery.Jcrop.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-1.11.1.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/timepicker/jquery-ui-timepicker-addon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/timepicker/jquery-ui-timepicker-addon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/plugins/xcrud.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud_container.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud_detail_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/bootstrap/xcrud_list_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/fonts/icon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/icons-demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud_container.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud_detail_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/default/xcrud_list_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/fonts/icon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/icons-demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud_container.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud_detail_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/minimal/xcrud_list_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/printout/xcrud.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/themes/printout/xcrud_list_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/xcrud.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/xcrud_ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/xcrud_config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lib/xcrud/xcrud_db.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Application.php" afterPath="$PROJECT_DIR$/BlackFramework/Application.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Autoloader.php" afterPath="$PROJECT_DIR$/BlackFramework/Autoloader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Config.php" afterPath="$PROJECT_DIR$/BlackFramework/Config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Container.php" afterPath="$PROJECT_DIR$/BlackFramework/Container.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Controller.php" afterPath="$PROJECT_DIR$/BlackFramework/Controller.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Database.php" afterPath="$PROJECT_DIR$/BlackFramework/Database.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Dispatcher.php" afterPath="$PROJECT_DIR$/BlackFramework/Dispatcher.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Entity/Base.php" afterPath="$PROJECT_DIR$/BlackFramework/Entity/Base.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Entity/Provider.php" afterPath="$PROJECT_DIR$/BlackFramework/Entity/Provider.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/ContainerException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/ContainerException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/ControllerNotFoundException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/ControllerNotFoundException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/EntityValidationException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/EntityValidationException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/MissingModelException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/MissingModelException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/MissingValidatorException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/MissingValidatorException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/MissingValidatorRuleException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/MissingValidatorRuleException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Exceptions/RouteNotFoundException.php" afterPath="$PROJECT_DIR$/BlackFramework/Exceptions/RouteNotFoundException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Form.php" afterPath="$PROJECT_DIR$/BlackFramework/Form.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementCheckbox.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementCheckbox.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementHidden.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementHidden.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementImage.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementImage.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementPassword.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementPassword.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementSelect.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementSelect.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementSubmit.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementSubmit.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementText.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementText.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/ElementTextarea.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/ElementTextarea.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Forms/FormContainer.phtml" afterPath="$PROJECT_DIR$/BlackFramework/Forms/FormContainer.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Models/EntityModel.php" afterPath="$PROJECT_DIR$/BlackFramework/Models/EntityModel.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Redirector.php" afterPath="$PROJECT_DIR$/BlackFramework/Redirector.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Request.php" afterPath="$PROJECT_DIR$/BlackFramework/Request.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Router.php" afterPath="$PROJECT_DIR$/BlackFramework/Router.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Services/Core.php" afterPath="$PROJECT_DIR$/BlackFramework/Services/Core.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Session.php" afterPath="$PROJECT_DIR$/BlackFramework/Session.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Utils/Debug.php" afterPath="$PROJECT_DIR$/BlackFramework/Utils/Debug.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/Validator.php" afterPath="$PROJECT_DIR$/BlackFramework/Validator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/View.php" afterPath="$PROJECT_DIR$/BlackFramework/View.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/View/FlashMessage.php" afterPath="$PROJECT_DIR$/BlackFramework/View/FlashMessage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/View/Translation.php" afterPath="$PROJECT_DIR$/BlackFramework/View/Translation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Black/View/ViewHelper.php" afterPath="$PROJECT_DIR$/BlackFramework/View/ViewHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="BlackFramework.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <executablePath>composer</executablePath>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="myapplication@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="myapplication@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="myapplication" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BlackFramework" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.26260257">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/HomeController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.5647059" vertical-offset="57" max-vertical-offset="255">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Form.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Black/Form.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="120" column="27" selection-start="2862" selection-end="2862" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3094">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Config - Paths</find>
+      <find>'debug'</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\fixwa\BlackFramework</dir>
+    </dirStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -73,34 +335,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Application/Modules/Main/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/Black/Form.php" />
+        <option value="$PROJECT_DIR$/Application/Modules/User/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/Black/Autoloader.php" />
+        <option value="$PROJECT_DIR$/Black/Application.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Application/Config/application.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="6e52e014-c9f3-4690-8cda-60845a88852b" name="localhost" port="8000" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -108,35 +378,60 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlackFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="BlackFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackFramework" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vhosts/restapi" />
     <property name="options.lastSelected" value="Configurable.PHP.Composer" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="SearchEverywhereHistory" value="form.php&#10;homecontroller&#10;controller" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\fixwa\BlackFramework\BlackFramework" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="073444eb-b43d-4c80-bb8b-6c9d6c64a044" server_name="Black Framework" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -144,15 +439,10 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="073444eb-b43d-4c80-bb8b-6c9d6c64a044" server_name="Black Framework">
-      <method />
-    </configuration>
-    <list size="0" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -174,53 +464,76 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="5cb93ecd-1be7-4b87-b4d2-7c4993e6bdc3" name="Default" comment="" />
       <created>1410273815257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1410273815257</updated>
+      <workItem from="1503064512115" duration="5283000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixes documentation for #9&#10;Also improved the dump file a little bit">
+      <created>1503067196048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503067196048</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Some cleanup a few improvements">
+      <created>1503067227586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503067227586</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5283000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="false" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08422175" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17793965" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40582725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122751325" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14672217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -231,42 +544,353 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
+    <MESSAGE value="Fixes documentation for #9&#10;Also improved the dump file a little bit" />
+    <MESSAGE value="Some cleanup a few improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some cleanup a few improvements" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Modules/User/Controllers/LoginController.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Modules/User/Controllers/LoginController.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Black/Form.php">
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="27" selection-start="2862" selection-end="2862" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3094">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.5647059" vertical-offset="57" max-vertical-offset="255">
+        <state relative-caret-position="0">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Black/Form.php">
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="27" selection-start="2862" selection-end="2862" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3094">
+        <state relative-caret-position="0">
+          <caret line="120" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="119" column="31" lean-forward="true" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Apps/wamp64/scripts/refresh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/User/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/j4mie/paris/paris.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="192" column="10" lean-forward="false" selection-start-line="192" selection-start-column="10" selection-end-line="192" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/User/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Entity/Provider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Entity/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Models/EntityModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Views/_partials/menu.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Views/Error/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/localhost.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="96" column="29" lean-forward="false" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+          <folding>
+            <marker date="1503066926664" expanded="true" signature="532:1020" ph="CREATE TABLE... IF" />
+            <marker date="1503066926664" expanded="true" signature="1136:2012" ph="CREATE TABLE... IF" />
+            <marker date="1503066926664" expanded="true" signature="2136:2335" ph="CREATE TABLE... IF" />
+            <marker date="1503066926664" expanded="true" signature="2452:3002" ph="CREATE TABLE... IF" />
+            <marker date="1503066926664" expanded="true" signature="3120:3418" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e0b431b-69a5-4e8e-b5cf-3c60057a8c08/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/83fc6f21/2e0b431b-69a5-4e8e-b5cf-3c60057a8c08/myapplication.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Views/Home/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Views/Helpers/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Views/Layouts/baseLayout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/ErrorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Utils/Debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <marker date="1503064379240" expanded="true" signature="286:347" ph="..." />
+            <marker date="1503064379240" expanded="true" signature="465:526" ph="..." />
+            <marker date="1503064379240" expanded="true" signature="650:711" ph="..." />
+            <marker date="1503064379240" expanded="true" signature="837:898" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Services/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Modules/Main/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="242">
+            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Config/Routes/AdminRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Config/Routes/ApplicationRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlackFramework/Autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Config/application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lib/xcrud/xcrud_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

@@ -1,7 +1,28 @@
 {
-    "require": {
-        "j4mie/idiorm": "1.5.*",
-        "j4mie/paris": "dev-master",
-        "codeguy/upload": "*"
+  "name": "fixwa/logregisys",
+  "description": "Another MVC framework with router, and using the Idiorm/Paris library for models.",
+  "keywords": ["mvc", "minimal", "small", "framework", "lightweight"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pablo",
+      "email": "fixwah@gmail.com"
     }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "j4mie/idiorm": "1.5.*",
+    "j4mie/paris": "dev-master",
+    "codeguy/upload": "*",
+    "svfnix/xcrud": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Black\\": "./BlackFramework/"
+    }
+  }
 }
