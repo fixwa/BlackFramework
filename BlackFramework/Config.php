@@ -5,25 +5,28 @@ class Config
     public static $configs = [];
     public static $paths = [];
 
-    public static function init()
+    /**
+     * @param string $applicationBaseDir The User-Application base directory.
+     */
+    public static function init($applicationBaseDir)
     {
-        self::initPaths();
+        self::initPaths($applicationBaseDir);
     }
 
     /**
      * Initializes all base folders.
+     * @param string $applicationBaseDir The User-Application base directory.
      */
-    private static function initPaths()
+    private static function initPaths($applicationBaseDir)
     {
         $thisDir = dirname(__FILE__);
 
         self::$paths['framework']   = realpath($thisDir. '/');
         self::$paths['base']        = realpath($thisDir . '/../');
-        self::$paths['application'] = realpath($thisDir . '/../Application/');
-        self::$paths['assetsBase']  = realpath($thisDir . '/../Assets/');
-        self::$paths['uploads']     = realpath($thisDir . '/../Assets/Uploads/');
-        self::$paths['config']      = realpath($thisDir . '/../Application/Config/');
-        self::$paths['routes']      = realpath($thisDir . '/../Application/Config/Routes/');
+        self::$paths['application'] = realpath($applicationBaseDir . '/Application/');
+        self::$paths['assetsBase']  = realpath($applicationBaseDir . '/Assets/');
+        self::$paths['uploads']     = realpath($applicationBaseDir . '/Assets/Uploads/');
+        self::$paths['config']      = realpath($applicationBaseDir . '/Application/Config/');
     }
 
     public static function get($configName = 'application')

@@ -17,16 +17,16 @@ class Core
     {
         //Initialize the transaltor. //@todo Add language-detection logic.
         Translation::setMessageLibrary(
-            Config::$paths['application'] . '/Languages/es.php'
+            Config::$paths['application'] . '/Languages/en.php'
         );
 
         Container::setSingleInstance('user', function () {
-            //$user = include Config::$paths['routes'] . '/ApplicationRoutes.php';
+            //$user = include Config::$paths['routes'] . '/web.php';
             //return new Router($user);
         });
 
         Container::setSingleInstance('router', function () {
-            $routes = include Config::$paths['routes'] . '/ApplicationRoutes.php';
+            $routes = include Config::$paths['application'] . '/Routes/routes.php';
             return new Router($routes);
         });
 
