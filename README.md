@@ -3,28 +3,23 @@ BlackFramework
 
 Just another MVC framework. 
 
-The idea behind this is to have a lightweight basecode with some of the most important functionalities required for basic websites.
+The idea behind this is to have a lightweight basecode with some of the most important functionality required for basic websites.
 
+This is a Composer-Package containing the core scripts. For a working example application, please refer to:
+[Basic application](https://github.com/fixwa/BlackFrameworkBasicApplication)
 
 ----------
 
 ##Install
 
-Clone this reposotory into a local folder and run the following:
+For a fresh install, you would create a blank composer project:
+    
+    composer init
 
-    cd BlackFramework
-    composer install
+follow the instructions and once completed:
 
-If you have mysql command line installed, run the command below, otherwise use your MySQL client:
+    composer require fixwa/black-framework --save
 
-    mysql mysql -u {username} -p < localhost.sql
+Now you should have the Black Framework available in your project, but you need to create your models/controllers/views by your own.
 
-Fire a webserver:
-
-    php -S localhost:8000
-
-Then browse to http://localhost:8000 and voilá!
-
-
-
-
+If you prefer a working project
